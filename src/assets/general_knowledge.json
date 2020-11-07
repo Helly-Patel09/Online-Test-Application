@@ -1,0 +1,112 @@
+[
+        {
+            "id": 1,
+            "question": "Who is Mickey Mouse?",
+            "options": [
+                    "Actor",
+                    "Scientist",
+                    "Doctor",
+                    "Cartoon Character"
+            ],
+            "correctIndex": 4
+        },
+        {
+            "id": 2,
+            "question": "Which is the biggest continent?",
+            "options": [
+                    "Africa",
+                    "Australia",
+                    "Asia",
+                    "Europe"
+            ],
+            "correctIndex": 3
+        },
+        {
+            "id": 3,
+            "question": "Who found the concept of “Gravitation” for the first time?",
+            "options": [
+                    "Albert Einstein",
+                    "Issac Newton",
+                    "Charles Darwin",
+                    "V. Raman"
+            ],
+            "correctIndex": 2
+        },
+        {
+            "id": 4,
+            "question": "How many straight edges does a cube have?",
+            "options": [
+                    "12",
+                    "8",
+                    "10",
+                    "14"
+            ],
+            "correctIndex": 1
+        },
+        {
+            "id": 5,
+            "question": "What is the capital city of California?",
+            "options": [
+                    "Sacramento",
+                    "Los Angeles",
+                    "San Francisco",
+                    "San Diego"
+            ],
+            "correctIndex": 1
+        },
+        {
+            "id": 6,
+            "question": "What is the second most spoken language in America?",
+            "options": [
+                    "Chinese",
+                    "Spanish",
+                    "Italian",
+                    "French"
+            ],
+            "correctIndex": 2
+        },
+        {
+            "id": 7,
+            "question": "Who is Miss World 2000?",
+            "options": [
+                    "Yukta Mookhey",
+                    "Linor Abargil",
+                    "Priyanka Chopra",
+                    "Azra Akin"
+            ],
+            "correctIndex": 3
+        },
+        {
+            "id": 8,
+            "question": "How many rings are there on the Olympic flag?",
+            "options": [
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+            ],
+            "correctIndex": 2
+        },
+        {
+            "id": 9,
+            "question": "How many years are there in a century?",
+            "options": [
+                    "25",
+                    "50",
+                    "75",
+                    "100"
+            ],
+            "correctIndex": 4
+        },
+        {
+            "id": 10,
+            "question": "How many holes are there on a standard golf course?",
+            "options": [
+                    "18",
+                    "15",
+                    "12",
+                    "17"
+            ],
+            "correctIndex": 1
+        }
+]

@@ -1,0 +1,112 @@
+[
+        {
+            "id": 1,
+            "question": "For every action, there is an equal and opposite reaction.”  It is which of Newton’s law of motion?",
+            "options": [
+                    "First Law",
+                    "Second Law",
+                    "Third Law",
+                    "Does not Apply"
+            ],
+            "correctIndex": 3
+        },
+        {
+            "id": 2,
+            "question": "Which cell organelle is also called powerhouse of the cell?",
+            "options": [
+                    "Ribosome",
+                    "Endoplasmic reticulum",
+                    "Cytoplasm",
+                    "Mitochondria"
+            ],
+            "correctIndex": 4
+        },
+        {
+            "id": 3,
+            "question": "The bending of light through a glass prism is called ____?",
+            "options": [
+                    "Reflection",
+                    "Refraction",
+                    "Diffraction",
+                    "Absorption"
+            ],
+            "correctIndex": 2
+        },
+        {
+            "id": 4,
+            "question": "What tissue connects muscles to bones?",
+            "options": [
+                    "Tendon",
+                    "Blood vessels",
+                    "Fat",
+                    "Skin"
+            ],
+            "correctIndex": 1
+        },
+        {
+            "id": 5,
+            "question": "Which nutrient plays an essential role in muscle-building?",
+            "options": [
+                    "Protein",
+                    "Carbohydrate",
+                    "Iron",
+                    "Fat"
+            ],
+            "correctIndex": 1
+        },
+        {
+            "id": 6,
+            "question": "Plants need which gas to perform photosynthesis?",
+            "options": [
+                    "Hydrogen",
+                    "Carbon monoxide",
+                    "Carbon dioxide",
+                    "Oxygen"
+            ],
+            "correctIndex": 3
+        },
+        {
+            "id": 7,
+            "question": "Which scientist proposed the three laws of motion?",
+            "options": [
+                    "Isaac Newton",
+                    "Stephen Hawking",
+                    "Thomas Alva Edison",
+                    "Albert Einstein"
+            ],
+            "correctIndex": 1
+        },
+        {
+            "id": 8,
+            "question": "Which is the largest animal on earth?",
+            "options": [
+                    "Shark",
+                    "Elephant",
+                    "Giraffe",
+                    "Blue Whale"
+            ],
+            "correctIndex": 4
+        },
+        {
+            "id": 9,
+            "question": "What energy emerges from motion?",
+            "options": [
+                    "Potential energy",
+                    "Electrical energy",
+                    "Kinetic energy",
+                    "Gravitational energy"
+            ],
+            "correctIndex": 3
+        },
+        {
+            "id": 10,
+            "question": "Which is the closest planet to the sun?",
+            "options": [
+                    "Venus",
+                    "Mars",
+                    "Mercury",
+                    "Earth"
+            ],
+            "correctIndex": 3
+        }
+    ]
