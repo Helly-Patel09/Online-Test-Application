@@ -27,7 +27,7 @@ export class QuizComponent implements OnInit {
   loadQuiz(quizName: string) {
     this.quizService.get('./assets/'+quizName+'.json').subscribe(data =>{
       data.forEach(q => {
-        this.quizForm.addControl(String(q.id), new FormControl(0, [Validators.required]));
+        this.quizForm.addControl(String(q.id), new FormControl(null, [Validators.required]));
       });
       this.quizInfo=data;
     });
