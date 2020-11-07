@@ -22,3 +22,21 @@ h2{
     font-weight: bold;
     color: pink;
 }
+.resulttag{
+    padding-top: 50px;
+    font-size: 50px;
+}
+.fail{
+    color:red;
+}
+.pass{
+    color: green;
+}
+.res{
+    margin-top:100px;
+    background-color: rgba(221, 46, 46, 0.144);
+    padding-bottom:100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}

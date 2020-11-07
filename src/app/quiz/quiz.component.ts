@@ -16,6 +16,7 @@ export class QuizComponent implements OnInit {
   quizname:string;
   quizInfo:Quiz[];
   score:number = 0;
+  mode:string='quiz';
   constructor(private quizService:QuizServiceService, private router: Router) { }
 
   quizForm = new FormGroup({})
@@ -28,13 +29,14 @@ export class QuizComponent implements OnInit {
       data.forEach(q => {
         this.quizForm.addControl(String(q.id), new FormControl(0, [Validators.required]));
       });
-      this.quizInfo=data
+      this.quizInfo=data;
     });
     console.log("QuizInfo:"+this.quizInfo);
     if(quizName == 'general_knowledge')
       this.quizname='General Knowledge';
     else
-      this.quizname='Science'
+      this.quizname='Science';
+    this.mode='quiz';
   }
 
   onSubmitQuiz() {
@@ -47,10 +49,6 @@ export class QuizComponent implements OnInit {
       }
     }
     console.log("score:"+this.score);
-    if(this.score>=8)
-      alert("Congratulations... you passed this test.");
-    else
-      alert("Sorry, you failed this exam. Your marks is below 80%. Please try again");
-    this.router.navigate(['result', {data: this.score}])
+    this.mode='result';
   }
 }

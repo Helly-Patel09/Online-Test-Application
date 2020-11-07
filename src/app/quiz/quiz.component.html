@@ -1,4 +1,5 @@
-<div class="row" style="padding-top: 30px;">
+<div *ngIf="mode=='quiz'">
+    <div class="row" style="padding-top: 30px;">
     <div class="col-6 text-center">
       <h1>Quiz Application</h1>
     </div>
@@ -24,5 +25,15 @@
     <button class="btn btn-success" type="submit" [disabled]="!quizForm.valid">Submit</button>
 
 </form>
-
+</div>
+</div>
+<div *ngIf="mode=='result'" class="container text-center res">
+    <div *ngIf="score>=8">
+        <p class="resulttag pass">Congratulations......!! You passed this Exam.</p>
+        <p class="resulttag" style="font-size: 30px;"> Your score is {{score*10}}%.</p>
+    </div>
+    <div *ngIf="score<8">
+        <p class="resulttag fail">Sorry..!! You Failed this Exam. Your Score is below 80%. Better try next time.</p>
+        <p class="resulttag" style="font-size: 30px;"> Your score is {{score*10}}%.</p>
+    </div>  
 </div>
